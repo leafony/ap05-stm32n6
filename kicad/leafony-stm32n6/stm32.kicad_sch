@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "71378f8b-a2f8-43e2-b976-e3323f1ae491")
+	(paper "A4")
+	(title_block
+		(title "Leafony STM32N6")
+		(date "2025-12-23")
+		(rev "v1.0")
+		(company "Leafony Systems Inc")
+	)
+	(lib_symbols)
+)

@@ -1,0 +1,107 @@
+(footprint "CS13734-48M"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "48 MHz ±15ppm 水晶振動子 7pF 80 Ohms 4-SMD、リードなし")
+	(property "Reference" "REF**"
+		(at 0.65 -1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c2e6c57-b1c4-4bcd-9e2d-024bbb0dd8b4")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "48MHz"
+		(at -0.05 1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bcd416d8-dc33-451d-a193-e94830371866")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8456/644_CS13734-48M.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2f15135-8513-424b-9269-f94f86e20ec5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CS13734-48M"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "156cfe0b-afbb-42be-91ca-ebf382b57cee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.15 -0.95)
+		(end 1.15 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2e174f3d-5382-4a87-b88f-8530f6648c15")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.05 3.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e07058cf-9f80-408a-9f1b-d4d278ee6862")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.525 0.375)
+		(size 0.75 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d074ae62-2c25-4503-bdf1-e19bbc0779e3")
+	)
+	(pad "2" smd rect
+		(at 0.525 0.375)
+		(size 0.75 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2e4e6c4-13bb-432f-b473-4d31ad20e04d")
+	)
+	(pad "3" smd rect
+		(at 0.525 -0.375)
+		(size 0.75 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0d074c41-99cd-4b1f-a2c9-99fa68d48707")
+	)
+	(pad "4" smd rect
+		(at -0.525 -0.375)
+		(size 0.75 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05e94605-d0e6-4350-b9af-0a3a20b200f5")
+	)
+	(embedded_fonts no)
+)
